@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/form.CSS">
+  <title>Document</title>
+</head>
+<body>
+ <h1>Online Admission Form</h1>
+ <div class="container">
+  <form action="table.html" method="post">
+    <fieldset>
+    <legend>Personal Information</legend>
+    <label for="F">Full Name:</label>
+   <input type="text" name="Full Name" id="F" placeholder="Enter Your Name Here">
+    <br><br>
+    <label for="E">Email:</label>
+    <input type="email" name="Email" id="E" placeholder="Enter your email here">
+    <br><br>
+    <label for="P">Phone:</label>
+    <input type="number" name="Phone" id="P" placeholder="Enter your phone number">
+      <br><br>
+    <label for="D">Date Of Birth:</label>
+    <input type="date" name="Date Of Birth:" id="D" placeholder="select date">
+    <br><br>
+    </fieldset>
+     <fieldset>
+     <legend>Academic Information</legend>
+      <label for="C">course:</label>
+     <select name="course" id="C">
+      <option value="">Select course</option>
+      <option value="D.I.T">D.I.T</option>
+      <option value="C.I.T">C.I.T</option>
+      <option value="Web development">web development</option>
+        <option value="SQL">SQL</option>
+      <option value="stitching">stitching</option>
+      <option value="Makeup">Makeup</option>
+      <option value="Graphic designing">Graphic designing</option>
+     </select>
+     <br><br>
+     <label for="PR">Previous qualification:</label>
+     <input type="text" name="Previous qualification:" id="PR" placeholder="Enter your last qualification">
+       <br><br>
+     <label for="%">Marks / percentage:</label>
+     <input type="number" name="Marks / percentage" id="%" placeholder="Enter your marks obtained">
+     <br><br>
+     </fieldset>
+<fieldset>
+    <legend>Address</legend>
+      <label for="City">City:</label>
+     <input type="text" name="City:" id="City" placeholder="Enter your city">
+      <br><br>
+      <label for="Address">Full Address:</label>
+     <textarea name="Full Address" id="Address" rows="7" placeholder="Enter your address"></textarea>
+    </fieldset>
+  <button type="submit">Submit Application</button>
+    </form>
+    </div>
+</body>
+</html>

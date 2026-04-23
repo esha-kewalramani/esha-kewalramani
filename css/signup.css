@@ -1,0 +1,92 @@
+ *{
+    margin: 0%; 
+    padding: 0%; 
+    box-sizing: border-box;
+}
+body{
+overflow: hidden;
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+background: linear-gradient(145deg, rgb(156, 7, 156) 10%, rgb(233, 233, 48) 30%, rgb(189, 18, 189) 60%, 
+rgb(233, 233, 48) 70%, purple 100%);
+}
+div{
+    width: 300px;
+    margin: 100px auto;
+    padding: 2.5rem 3rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.1);
+   box-shadow: 0px 9px 8px rgb(56, 54, 54);
+   animation: transparent 1s ease;
+   height: 80vh;
+}
+@keyframes transparent{
+    from{
+        opacity: 0.9%;
+        transform: translateY(-200px);
+    }
+    to{
+        opacity: 1%;
+        transform: translatey(0px);
+    }
+}
+h1{
+     animation: transparent 2s ease;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     margin: 0%;
+     padding: 0%;
+     font-size: 2rem;
+     text-decoration: underline;
+}
+label{
+   animation: transparent 2s ease;  
+    display: block;
+   margin-bottom: 6px;
+   color: black;
+   font-size: 0.9rem;
+   font-weight: 800;
+  }
+input{
+    padding: 4px 4px 10px 12px;
+    /* (TRBL)top 0px
+    right 0px 
+    bottom 10px
+    left 12px
+    padding order is fixed thing like a clock top right bottom left if we have given only one value it means all sides will be equal if we have given 2 values it means the values will be of top bottom left and right if we have 3 values it means top right left and bottom values */
+width: 100%;
+ /* padding-bottom: 5px;
+ padding-top: 5px; */
+  margin-bottom: 1.2rem;
+ border: 1px solid #5a5959;
+ border-radius: 10px;
+font-size: 0.95rem;
+transition: 0.3s ease;
+}
+input:focus{
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 50px rgba(8, 100, 107, 0.5);
+     /* box shadow pattern islike 1horizantal(left and right) 2vertical(top and bottom) 3blur spread color(at what level you want your color to be showed) */
+}
+button{
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: crimson;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 2px;
+   cursor: pointer;
+}
+button[type="submit"]:hover{
+    background: #7af044;
+}
+button[type="reset"]:hover{
+    background: rgb(247, 123, 123);
+}

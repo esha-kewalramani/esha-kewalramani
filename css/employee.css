@@ -1,0 +1,63 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+     background-image: url(../Media/bg2.jpg); background-size: 70vh auto; overflow-y: hidden; 
+}
+h1{
+   color:transparent; background:linear-gradient(145deg,rgb(219, 158, 255), rgb(255, 245, 50)); text-align: center; font-weight: 300; font-family:  Arial, Helvetica, sans-serif; 
+   margin: 10px 20px;
+-webkit-background-clip: text; background-clip: text; font-weight: bolder;
+}
+input,textarea,select{
+    padding: 8px; width: 250px; margin-bottom:12px ; border-radius: 5px; border: 1px solid rgb(207, 206, 206);
+}
+input,textarea,select{
+    transition: 0.3s;
+}
+input:focus,
+textarea:focus,
+select:focus{
+     transition: 0.3s ease;  box-shadow: 0 0 10px rgb(0, 46, 252); border-color: blueviolet;
+}
+button{
+   width: 150px; border: none; background:red; color: white; padding: 10px; cursor: pointer;
+   margin-bottom: 5%;
+}
+button[type="submit"]:hover{
+    background-color: green;
+}
+h3{
+    margin-top: 1.5%;  text-align: left; 
+}
+.main-container{
+margin: auto; padding: 15px;
+width: 580px;  background-color: rgb(248, 243, 243); 
+}
+.a1,.a2{
+    display:flex;
+}
+.a,.b,.A,.B{
+    display: block; 
+}
+.B1{
+    border: 4px dotted yellowgreen;
+}
+.B2{
+    border: 3px solid rgb(79, 180, 247);
+}
+.B1::placeholder{
+color: yellowgreen; font-weight: 750;
+}
+.B2::placeholder{
+    color: rgb(228, 79, 79); font-weight: 750;
+}
+p{
+color: rgb(233, 35, 35);margin: 0px 0px 5px 0px ;
+}
+.c{
+    display: flex;
+}
+.d{
+    border: 2px solid grey; padding: 1px 2px; margin:0 auto;
+}
