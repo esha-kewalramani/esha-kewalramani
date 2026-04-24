@@ -20,7 +20,7 @@ fieldset{
     border-radius: 5px; padding: 5px; font-weight:700; font-size: medium;
 }
 input, select, textarea{
-    width: 65%; padding: 8px; border: 1px solid #ccc;
+    width: 100%; padding: 8px; border: 1px solid #ccc;
 }
 input:focus,
 textarea:focus,
@@ -45,6 +45,9 @@ input{
     transition: 0.3s ease;
 }
 label{
-    font-size: medium; font-weight: 600;
+    font-size:large; font-weight: 600; font-family: 'Times New Roman', Times, serif;
+}
+.form-group{
+    display: grid; grid-template-columns: 180px 1fr;
 }
 
