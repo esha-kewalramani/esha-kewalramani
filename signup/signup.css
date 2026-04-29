@@ -1,7 +1,8 @@
  *{
-    margin: 0%; 
-    padding: 0%; 
-    box-sizing: border-box;
+margin: 0; 
+padding: 0; 
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
 }
 body{
 overflow: hidden;
@@ -15,41 +16,40 @@ rgb(233, 233, 48) 70%, purple 100%);
 div{
     width: 300px;
     margin: 100px auto;
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 2rem;
     border: 2px solid black;
     border-radius: 30px;
     background: rgba(255,255,255,0.1);
    box-shadow: 0px 9px 8px rgb(56, 54, 54);
-   animation: transparent 1s ease;
-   height: 80vh;
+   animation: transparent 2s ease;
+   height: 76vh;
+   
 }
 @keyframes transparent{
     from{
-        opacity: 0.9%;
         transform: translateY(-200px);
     }
     to{
-        opacity: 1%;
         transform: translatey(0px);
     }
 }
 h1{
-     animation: transparent 2s ease;
+     animation: transparent 3s ease;
      text-align: center;
      color: rgb(0, 0, 0);
-     margin: 0%;
-     padding: 0%;
-     font-size: 2rem;
+    font-size: 2rem;
      text-decoration: underline;
+     /* margin-bottom: 25px; */
+     position: relative;
+     top: -25px;
 }
 label{
-   animation: transparent 2s ease;  
-    display: block;
-   margin-bottom: 6px;
+   animation: transparent 3s ease;  
    color: black;
-   font-size: 0.9rem;
+   font-size: 1rem;
    font-weight: 800;
-  }
+   display: inline-block; 
+}
 input{
     padding: 4px 4px 10px 12px;
     /* (TRBL)top 0px
@@ -60,7 +60,7 @@ input{
 width: 100%;
  /* padding-bottom: 5px;
  padding-top: 5px; */
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
  border: 1px solid #5a5959;
  border-radius: 10px;
 font-size: 0.95rem;
@@ -69,7 +69,7 @@ transition: 0.3s ease;
 input:focus{
     border-color: #2575fc;
     outline: none;
-    box-shadow: 0 0 50px rgba(8, 100, 107, 0.5);
+    box-shadow: 0 0 40px rgba(8, 100, 107, 0.5);
      /* box shadow pattern islike 1horizantal(left and right) 2vertical(top and bottom) 3blur spread color(at what level you want your color to be showed) */
 }
 button{
@@ -78,11 +78,11 @@ button{
     border: none;
     border-radius: 10px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 900;
     color: crimson;
-   font-family: Arial, Helvetica, sans-serif;
-   margin-bottom: 2px;
+   margin-bottom: 5px;
    cursor: pointer;
+  
 }
 button[type="submit"]:hover{
     background: #7af044;

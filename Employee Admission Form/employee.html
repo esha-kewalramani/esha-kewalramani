@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/employee.css">
+    <link rel="stylesheet" href="employee.css">
 </head>
 <body>
     <h1>EMPLOYEE  APPLICATION  FORM</h1>
@@ -23,7 +23,13 @@
 <h3>Your Details:</h3> 
   <input type="text" placeholder="First Name"> 
    <input type="text" placeholder="Last Name">
+   <div class="relocation">
    <h4>Reloaction Required*</h4>
+   <label for="y">Yes</label>
+   <input type="radio" id="y" name="Reloaction Required*">
+   <label for="n">No</label>
+    <input type="radio" id="n" name="Reloaction Required*">
+    </div>
    <select name="" id=""><option value="">Country</option>
     <option value="">pakistan</option><option value="">India</option>
     <option value="">China</option></select>
@@ -45,9 +51,7 @@
 </div>
 <div class="B"><br>
     <input type="file">
-    <div class="c"><p>-----------------</p>
-        <div class="d">OR</div>
-        <p>----------------</p></div><br>
+    <div class="c"><p>-----------------</p><div class="d">OR</div><p>----------------</p></div><br>
 <input class="B1" type="text" placeholder="drag and drop files here">
     <input class="B2" type="text" placeholder="status messages"></div>
 </div>

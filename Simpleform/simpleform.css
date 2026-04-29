@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        label{
+ label{
             font-weight: 600; font-size: medium;
         }
         fieldset{
@@ -33,20 +26,3 @@
         button:hover{
             background: rgb(54, 202, 54); border-radius: 8px;
         }
-    </style>
-</head>
-<body>
-  <fieldset>
-    <legend>Contact Info</legend>
-    <label for="n">Full Name:</label>
-    <input type="text" placeholder="Enter your name here" name="Full Name" id="n">
-    <label for="e">Email:</label>
-    <input type="email" placeholder="Enter your Email here" name="Email" id="e">
-    <label for="p">Phone number:</label>
-    <input type="number" id="p" placeholder="Enter your number here">
-    <label for="m">Message:</label>
-    <textarea name="message" id="m" rows="5" cols="21" ></textarea>
-    <button type="submit">Submit</button>
-  </fieldset>  
-</body>
-</html>
