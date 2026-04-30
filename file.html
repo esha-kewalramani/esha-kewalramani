@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+div{
+position: absolute;
+top: 20%;
+left: 40%;
+overflow-y: hidden;
+justify-content: center;
+ width: 250px;
+ border: 2.5px solid black;
+ border-radius: 10px; 
+ padding:40px;
+ background: linear-gradient(115deg, silver,  #f8f1f1);
+ font-family: 'Times New Roman', Times, serif;
+ margin: auto;
+ transition: 0.6s ease;
+ }
+ div:hover{
+    /* background: linear-gradient(135deg, #0f2027, #2c5364); */
+    /* background: linear-gradient(135deg, #111111, #b6ff00);
+    background:  linear-gradient(135deg, #ff9a9e, #fad0c4); */
+    background: linear-gradient(135deg, #fff8e7, #f6e7c1);
+    cursor: pointer;
+    transform: translateY(-9px);
+    transform: scale(1.0006);
+    box-shadow: 0 8px 5px rgba(0,0,0,12);
+ }
+ label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    animation: out 2s ease;
+    display: inline-block;
+}
+@keyframes out{
+    from{
+transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+label:hover{
+box-shadow: 1px 0 3px rgb(151, 5, 24);
+}
+input{
+width: 95%;
+padding: 10px 8px;
+border-radius: 8px;
+border: none;
+outline: none;
+border-bottom: 2px solid black;
+/* background: linear-gradient(to right, rgb(192, 182, 182), beige); */
+background: none;
+  margin-bottom: 10px;
+}
+input:hover{
+   box-shadow: 0 0 5px black;
+   border: none;
+outline: none;
+background: none;
+border-bottom: 2px solid black;
+}
+button{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border-color: beige;
+    margin-top: 0px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: greenyellow;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <label for="N">Full Name:</label>
+    <input type="text" id="N" placeholder="Full Name">
+    <label for="M">Marks:</label>
+    <input type="number" id="M" placeholder="Marks here">
+    <h2 id="result"></h2>
+    <button class="submit" onclick="check()">submit</button>
+    </div>
+    <script>
+        function check()
+           {
+            let marks=document.getElementById('M').value;
+    if(marks>=80 && marks<=100)
+{
+    document.getElementById('result').innerHTML="'Grade A1'";
+} 
+else if(marks>=70 && marks<80)
+{
+document.getElementById('result').innerHTML="'Grade A'";
+}
+else if(marks>=60 && marks<70)
+{
+document.getElementById('result').innerHTML="'Grade B'";
+}
+else if(marks>50 && marks<60)
+{
+document.getElementById('result').innerHTML="'Grade c'";
+}
+else if(marks<=50 && marks>0)
+{
+document.getElementById('result').innerHTML="'Fail'";
+}
+else{
+    document.getElementById('result').innerHTML="'Invalid response'";
+}
+    }
+    </script>
+</body>
+</html>

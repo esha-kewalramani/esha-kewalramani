@@ -1,77 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=rajdhnai:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=rajdhnai&family=poppins:wght@400..900&display=swap');
 *{
     margin: 0%;
     padding: 3.2%;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #dbeafe, #f0f9ff);
+}
 .main-container{
-    /* background: linear-gradient(rgb(102, 110, 108), rgb(133, 130, 130) ); */
-    margin:auto; 
+    padding: 20px; 
     background-color: #7c8f87;
-   width: 60vh;
-   border-radius: 10px;
-   box-shadow: 6px 6px 0 rgb(14, 13, 13,0.8);
-   height: 410px;
+   width: 350px;
+   border-radius: 25px;
+   box-shadow: 11px 0 8px rgb(14, 13, 13,0.8);
+   height: 430px;
 }
 input{
-    background-color: rgb(242, 253, 247);
-    width: 50vh;
-    margin:0 auto; 
-    padding: 17px;
-    border-radius: 10px;
-    font-family: 'orbitron', Times, serif;
-    font-size:1.2rem ;
+   width: 98%;
+    border-radius: 18px;
+    font-size:30px ;
     font-weight: 700;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 0 rgb(14, 13, 13,0.8);
+    margin-bottom: 6px;
     letter-spacing: 0.2rem;
     border: none;
     outline: none;
+    text-align: right;
+    border-bottom: 1px solid black;
+     background-color: rgb(242, 253, 247);
+     font-family: 'poppins', Times, serif;
+    box-shadow: 4px 4px 0 rgb(14, 13, 13,0.8);
 }
 input:hover{
     background-color: rgb(201, 218, 218);
-    border-radius: 13px;
+    border-radius: 18px;
     box-shadow:5px 5px 0 rgb(14, 13, 13,0.8);
     cursor: pointer;
 }
 input:focus{
    border-radius: 13px;
-    box-shadow: 6px 6px 0 rgb(14, 13, 13,0.8);
+    box-shadow: 4px 4px 0 rgb(14, 13, 13,0.8);
     cursor: pointer;
     background-color: aliceblue;
+    box-shadow: 4px 4px 0 rgb(14, 13, 13,0.8);
 }
 .for-buttons{
-    display: flex;
-     justify-content: center;
-     width: 50vh; 
-     margin: auto;
+   display: grid;
+   grid-template-columns: repeat(4 1fr);
+       justify-content: center;
+       width: 325px;
 }
 .each{
-   display: grid;
-   gap: 3px;
+    display: flex;
+     justify-content: center;
+          gap: 6px;
 }
 button{
-    width: 70px;
-     padding: 8px;
+    width: 75px;
+     padding: 8px -8px;
+     margin: auto;
      border-radius: 15px;
-     font-size: 1.3rem;
-     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     font-family: 'poppins', Times, serif;
      font-weight:bold;
-     margin-bottom: 5px;
+     border: none;
+     outline: none;
+     border-bottom: 4px solid black;
      }
      button:hover{
         cursor: pointer;
         box-shadow: 0 0 8px rgb(184, 230, 255);
         border-radius: 15px;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
      }
      .equal{
            width: 70px;
      padding: 8px;
      border-radius: 15px;
-     font-size: 1.3rem;
+     font-size: 1.4rem;
      font-family: 'Times New Roman', Times, serif;
      font-weight:bold;
      margin-bottom: 5px;
      background-color:#f59e0b; 
+     }
+     .operator{
+        color: #b4535f;
+        font-size: 18px;
+     }
+     .operator1{
+        color: #dc2626;
+     }
+     @media (max-width: 500px){
+        .main-container{
+            width: 90%;
+        }
      }

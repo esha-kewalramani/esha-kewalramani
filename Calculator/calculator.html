@@ -4,41 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
-    <link rel="stylesheet" href="../Calculator/calculator.css">
+    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
     <div class="main-container">
-<input type="number" placeholder="0">
+<input type="text" placeholder="0" id="display">
 <div class="for-buttons">
     <div class="each">
-        <button>AC</button>
-    <button>7</button>
-    <button>4</button>
-    <button>1</button>
-    <button>00</button>
+        <button class="operator1" onclick="clearDisplay()">AC</button>
+        <button class="operator1" onclick="deleteLast()">DEl</button>
+        <button class="operator" onclick="appendValue('%')">%</button>
+        <button class="operator" onclick="appendValue('/')">÷</button>
+        </div>
+         <div class="each">
+    <button onclick="appendValue('7')">7</button>
+    <button onclick="appendValue('8')">8</button>
+    <button onclick="appendValue('9')">9</button>
+    <button class="operator" onclick="appendValue('*')">×</button>
     </div>
     <div class="each">
-        <button>( )</button>
-    <button>8</button>
-    <button>5</button>
-    <button>2</button>
-    <button>0</button>
+    <button onclick="appendValue('4')">4</button>
+    <button onclick="appendValue('5')">5</button>
+    <button onclick="appendValue('6')">6</button>
+    <button class="operator" onclick="appendValue('-')">-</button>
     </div>
     <div class="each">
-        <button>%</button>
-    <button>9</button>
-    <button>6</button>
-    <button>3</button>
-    <button>.</button>
+    <button onclick="appendValue('1')">1</button>
+    <button onclick="appendValue('2')">2</button>
+    <button onclick="appendValue('3')">3</button>
+    <button class="operator" onclick="appendValue('+')">+</button>
     </div>
     <div class="each">
-    <button>÷</button>
-    <button>×</button>
-    <button>-</button>
-<button>+</button>
-    <button class="equal">=</button>
+    <button onclick="appendValue('00')">00</button>
+    <button onclick="appendValue('0')">0</button>
+    <button onclick="appendValue('.')">.</button>
+    <button class="equal" onclick="calculate()">=</button>
 </div>   
 </div>
     </div>
+    <script>
+        const display=
+        document.getElementById('display');
+        function appendValue(value){
+            display.value += value;
+        }
+        function clearDisplay(){
+            display.value = "";
+        }
+        function deleteLast(){
+            display.value =
+            display.value.slice(0, -1);
+        }
+        function calculate(){
+        try{
+           display.value =
+           eval(display.value);}
+        catch{
+display.value ='Error'
+        }
+    }
+    </script>
 </body>
 </html>
