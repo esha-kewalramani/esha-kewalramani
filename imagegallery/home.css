@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'unbounded', sans-serif;
+    background-color: white;
+
+}
+header{
+        background: linear-gradient(145deg, #919695, #a5b0b3, #d4d7db, #e5ecee);
+    background-size: 400% 400%;
+animation: gradient 7s ease infinite;
+}
+@keyframes gradient{
+0%{background-position: 0% 100%;}
+50%{background-position: 100% 50%;}
+100%{background-position: 0% 50%;}
+}
+header h1{
+padding: 5px;
+margin: 30px;
+display: flex;
+justify-content: center;
+letter-spacing: 3px;
+font-size: 7rem;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+background-image: url(../Media/gallaxy.webp);
+
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+header nav a{
+color: #0f3153;
+    font-size: x-large;
+    font-weight: 700;
+}
+header nav a:hover{
+    cursor: pointer;
+    border: 2px solid rgb(22, 20, 20);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(212, 212, 90);
+    text-decoration: none;
+    color: rgb(135, 58, 207) ;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 7px;
+    width: 200px;
+}
+img{
+    width: 420px;
+    height: 98%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+img:hover{
+    cursor: pointer;
+    border-radius: 15px;
+padding: 30px;
+}  
+p{
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+p::after{
+    content: "|";
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
+h2{
+    display: flex;
+    justify-content: center;
+}  
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.image-section img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    transition: 0.3s ease;
+}
+
+.image-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+/* header {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+} */
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00eaff;
+}
+
+/* TITLE */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* GRID */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+/* CARD STYLE */
+.card {
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    transition: 0.3s ease;
+}
+
+.card img {
+    width: 98%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.card h3 {
+    padding: 10px;
+}

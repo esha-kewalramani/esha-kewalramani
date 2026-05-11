@@ -1,0 +1,102 @@
+body{
+background: linear-gradient(135deg, #a8a395, #e0c88a, #a8a395);
+background-size: 300% 300%;
+animation: gradientmove 7s ease infinite;
+ }
+@keyframes gradientmove {
+  0%{
+    background-position: 0% 50%;
+  }  
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 50% 100%;
+  }
+ }
+div{
+position: absolute;
+top: 15%;
+left: 40%;
+overflow-y: hidden;
+justify-content: center;
+ width: 250px;
+ border: 3.5px solid black;
+ border-radius: 10px; 
+ padding:40px;
+ font-family: 'Times New Roman', Times, serif;
+ margin: auto;
+ transition: 0.6s ease;
+ background: rgba(255, 255, 255, 0.15);
+ backdrop-filter: blur(15px);
+}
+ div:hover{
+background: linear-gradient(135deg, #c2aa6c, #ccc7b8, #d6c394);
+cursor: pointer;
+transform: translateY(-4px);
+box-shadow: 0 8px 5px rgba(0,0,0,12);
+background-size: 300% 300%;
+animation: gradientmove 7s ease infinite;
+}
+ label{
+font-size: 1.2rem;
+font-weight: 600;
+animation: out 2s ease;
+display: inline-block;
+}
+@keyframes out{
+    from{
+transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+input{
+width: 95%;
+padding: 10px 8px;
+border-radius: 8px;
+border: none;
+outline: none;
+border-bottom: 2px solid black;
+background: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+input:hover{
+   box-shadow: 0 0 5px black;
+   border: none;
+outline: none;
+background: none;
+border-bottom: 2px solid black;
+}
+button{
+justify-content: center;
+display: flex;
+margin: auto;
+padding: 5px 25px;
+border-radius: 10px;
+border-color: beige;
+font-size: 15px;
+}
+button:hover{
+background-color: greenyellow;
+}
+h2{
+color: rgb(0, 0, 0);
+text-align: center;
+}
+.h{
+position: relative;
+top: -20px;
+ text-transform: uppercase;
+ font-size: 1.7rem;
+ font-weight: 700;
+ }
+p{
+ border: none;
+   text-align: center;
+   position: relative;
+   top: -30px;
+   font-size: large;
+}

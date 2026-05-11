@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+body{
+margin: 0;
+height: 100vh;
+}
+img{
+ width: 120vh;
+ height: 60vh;
+margin: auto;
+display: flex;
+justify-content: center;
+margin-bottom: 10PX;
+}
+.buttons{
+display: flex;
+justify-content: center;
+top: 80%;
+left: 80%;
+margin: auto;
+gap:10PX ;
+}
+button{
+border: none;
+outline: none;
+background-color: rgb(70, 62, 62);
+}
+i{
+font-size: 1.7rem;
+color: rgb(255, 187, 61);
+}
+    </style>
+</head>
+<body>
+<img id="myimage" src="../Media/bed.jpg" alt="bedroom" ; document.body.style.background='black';>
+<div class="buttons">
+<button onclick="document.getElementById('myimage').src='../Media/bed.jpg'" >
+<i class="fa-regular fa-sun"></i></button>
+<button onclick="document.getElementById('myimage').src='../Media/bedroom2.jpg'">
+<i class="fa-solid fa-moon"></i></button>
+</div>
+</body>
+</html>

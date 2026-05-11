@@ -1,28 +1,60 @@
- label{
-            font-weight: 600; font-size: medium;
-        }
-        fieldset{
-            width: 400px; margin: auto; margin-top: 10%;
-        }
-        input,textarea{
-            display: block; font-size: medium; font-weight: 580; 
-             padding: 8px 10px; width: 400px; transition: shine 2s ease-in-out; margin-top: 10px; margin-bottom: 10px;
-        }
-        input:focus,textarea:focus{
-          box-shadow: 0 0 15px palevioletred; border-radius: 20px; 
-          background:linear-gradient(rgb(218, 207, 207),rgb(250, 117, 221));
-          border: none; 
-        }
-        body{
-            background-color: rgb(184, 225, 238);
-        }
-        legend{
-            font-weight: 600;
-        }
-        button{
-            width: 150px;  margin: auto; padding: 6px 0px; display: flex; text-align: center;
-            justify-content: center; cursor: pointer;
-        }
-        button:hover{
-            background: rgb(54, 202, 54); border-radius: 8px;
-        }
+label{
+font-weight: 900; 
+font-size: 1.1em;
+}
+fieldset{
+width: 330px;
+margin: auto;
+margin-top: 10%;
+background: rgba(228, 211, 211,0.04);
+border-radius: 10px;
+box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+border: none;
+outline: none;
+}
+input,textarea{
+display: block; 
+font-size: medium;
+font-weight: 580; 
+background: rgb(232, 236, 235);
+padding: 8px 10px; 
+width: 90%;
+transition: shine 2s ease-in-out;
+margin-bottom: 8px;
+border: none;
+outline: none;
+border-radius: 10px;
+}
+input:focus,textarea:focus{
+box-shadow: 0 0 15px rgb(224, 150, 175);
+border-radius: 15px; 
+background:linear-gradient(rgb(218, 207, 207),rgb(250, 165, 232));
+border: none;
+outline: none;
+}
+body{
+background-color: rgb(196, 202, 202);
+}
+legend{
+font-weight: 900;
+font-size: 2em;
+text-align: center;
+position: relative;
+top: -8px;
+}
+button{
+width: 150px;
+margin: auto;
+padding: 8px 0px;
+display: flex;
+text-align: center;
+justify-content:
+ center; cursor: pointer;
+ border: none;
+ outline: none;
+ border-radius: 8px;
+}
+button:hover{
+background: rgb(54, 202, 54); 
+border-radius: 8px;
+ }
