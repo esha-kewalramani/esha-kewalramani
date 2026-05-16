@@ -19,7 +19,7 @@
 
 
 ---
-## 🛠️ Skills
+🛠️ Skills
 
 🌐 HTML5 – Structure of Web Pages 
 
