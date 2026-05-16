@@ -26,7 +26,7 @@
 
 🎨 CSS3 (Flexbox, Grid, Responsive Design)
 
-⚡ JavaScript (Basics to DOM Manipulation)
+⚡ JavaScript
 
 🧠 Git & GitHub
 
