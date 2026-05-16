@@ -30,7 +30,6 @@
 📊 MS Office – Word, Excel, PowerPoint
 
 
-
 ---
 
 🚀 Projects
@@ -62,18 +61,11 @@ Here are some of my works:
 💼 Build strong portfolio
 
 
-
 ---
 
 📫 Connect With Me
 
-GitHub:https://github.com/esha-kewalramani
-
-Portfolio: (Add later)
-
-Email: (Optional)
-
-
+Email: eshakewalramani562@gmail.com
 
 ---
 
