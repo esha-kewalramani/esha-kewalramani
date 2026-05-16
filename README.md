@@ -19,16 +19,15 @@
 
 
 ---
+## 🛠️ Skills
 
-🛠️ Skills
+🌐 HTML5 – Structure of Web Pages 
 
-🌐 HTML5
+🎨 CSS3 – Flexbox, Grid, Responsive Design 
 
-🎨 CSS3 (Flexbox, Grid, Responsive Design)
+⚡ JavaScript – Basic Interactivity  
 
-⚡ JavaScript (Basics to DOM Manipulation)
-
-🧠 Git & GitHub
+📊 MS Office – Word, Excel, PowerPoint
 
 
 
