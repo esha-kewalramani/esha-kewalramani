@@ -1,11 +1,9 @@
 # 👋 Hi, I'm Esha Kewalramani  
-
 💻 Beginner Frontend Web Developer | 🚀 Beginner to Pro Growth Journey  
 
 ---
 
 ## 🧠 About Me  
-
 - 🎓 Passionate about Web Development & UI Design  
 - 🌱 Currently learning advanced **JavaScript & React**  
 - 💡 I enjoy turning ideas into real, responsive websites  
