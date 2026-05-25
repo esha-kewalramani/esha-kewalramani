@@ -1,72 +1,66 @@
-👋 Hi, I'm Esha Kewalramani
+# 👋 Hi, I'm Esha Kewalramani  
 
-💻 Frontend Developer | HTML • CSS • JavaScript Learner
-🚀 Building modern, responsive web projects
-
+💻 Beginner Frontend Web Developer | 🚀 Beginner to Pro Growth Journey  
 
 ---
 
-🌟 About Me
+## 🧠 About Me  
 
-🌱 Currently learning JavaScript & Web Development
-
-🎯 Goal: Become a Full Stack Web Developer
-
-💡 Love building creative UI designs
-
-📌 Focused on improving my GitHub profile & projects
-
-
-
----
-🛠️ Skills
-
-🌐 HTML5 – Structure of Web Pages 
-
-🎨 CSS3 – Flexbox, Grid, Responsive Design 
-
-⚡ JavaScript – Basic Interactivity  
-
-📊 MS Office – Word, Excel, PowerPoint
-
+- 🎓 Passionate about Web Development & UI Design  
+- 🌱 Currently learning advanced **JavaScript & React**  
+- 💡 I enjoy turning ideas into real, responsive websites  
+- 🎯 Goal: Become a Full Stack Developer  
+- ⚡ Love building clean, user-friendly interfaces  
 
 ---
 
-🚀 Projects
+## 🛠️ Tech Stack  
 
-Here are some of my works:
+### 💻 Languages  
+![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
 
-📊 Calculator App (JavaScript)
-
-📝 Student Result Checker
-
-🖼️ Image Gallery Website
-
-📄 Employee Admission Form (Glassmorphism UI)
-
-
-👉 More projects coming soon...
-
+### ⚙️ Tools & Platforms  
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+![VS Code](https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode)
 
 ---
 
-📈 GitHub Goals
+## 🚀 Projects  
 
-🔥 Upload consistent projects
+🌟 **Image Gallery Website**  
+A responsive gallery showcasing creative layouts using HTML, CSS & JavaScript  
 
-📱 Build responsive websites
+🌟 **Calculator App**  
+A simple and interactive calculator built with JavaScript  
 
-🌍 Deploy projects using GitHub Pages
-
-💼 Build strong portfolio
-
-
----
-
-📫 Connect With Me
-
-Email: eshakewalramani562@gmail.com
+🌟 **Portfolio Website**  
+My personal portfolio showcasing my skills and projects  
 
 ---
 
-⭐ “Consistency is the key to mastering web development.”
+## 📊 GitHub Stats  
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+
+---
+
+## 🎯 Currently Working On  
+
+- 🔥 Improving JavaScript skills  
+- 🎨 Building responsive UI designs  
+- 🌐 Creating more real-world projects  
+
+---
+
+
+## ✨ Fun Fact  
+
+💡 I believe: *“Consistency is more important than perfection.”*  
+
+---
+
+⭐ Thanks for visiting my profile!
