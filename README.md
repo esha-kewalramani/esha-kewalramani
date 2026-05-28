@@ -1,7 +1,6 @@
 # 👋 Hi, I'm Esha Kewalramani  
 💻 Beginner Frontend Web Developer | 🚀 Beginner to Pro Growth Journey  
 
----
 
 ## 🧠 About Me  
 - 🎓 Passionate about Web Development & UI Design  
@@ -10,7 +9,6 @@
 - 🎯 Goal: Become a Full Stack Developer  
 - ⚡ Love building clean, user-friendly interfaces  
 
----
 
 ## 🛠️ Tech Stack  
 
@@ -23,7 +21,6 @@
 ![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
 ![VS Code](https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode)
 
----
 
 ## 🚀 Projects  
 
@@ -37,21 +34,10 @@ A simple and interactive calculator built with JavaScript
 My personal portfolio showcasing my skills and projects  
 
 
----
-
-## 🎯 Currently Working On  
-
-- 🔥 Improving JavaScript skills  
-- 🎨 Building responsive UI designs  
-- 🌐 Creating more real-world projects  
-
----
-
-
 ## ✨ Fun Fact  
 
 💡 I believe: *“Consistency is more important than perfection.”*  
 
----
+
 
 ⭐ Thanks for visiting my profile!
