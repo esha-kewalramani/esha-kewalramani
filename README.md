@@ -1,6 +1,7 @@
 # Hi 👋, I'm Esha Kewalramani</h1>
 
-💻 Frontend Web Developer | 🌐 UI Designer | 🚀 Beginner to Pro Growth Journey
+
+💻 Frontend Web Developer | 🚀 Beginner to Pro Growth Journey
 
 
 ## 💫 About Me
