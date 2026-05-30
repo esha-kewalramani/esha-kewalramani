@@ -25,7 +25,7 @@
 ## 🚀 Projects  
 
 🌟 **Image Gallery Website**  
-A responsive gallery showcasing creative layouts using HTML, CSS & JavaScript  
+A responsive gallery showcasing my own projects with creative layouts using HTML, CSS & JavaScript  
 
 🌟 **Calculator App**  
 A simple and interactive calculator built with JavaScript  
