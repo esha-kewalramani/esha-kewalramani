@@ -47,6 +47,12 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=esha-kewalramani&theme=tokyo-night" />
 </p>
 
+
+## ✨ Fun Fact  
+
+💡 I believe: “Consistency is more important than perfection.”  
+
+
 ⭐ Thanks for visiting my profile!
 
 
