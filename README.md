@@ -1,58 +1,54 @@
-<!-- 🟣 CUSTOM HEADER BANNER -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Esha%20Kewalramani&fontSize=40&fontColor=ffffff" />
 </p>
-
 <h1 align="center">Hi 👋, I'm Esha Kewalramani</h1>
 
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=500&lines=Frontend+Developer;DIT+Student;HTML+CSS+JavaScript+Learner;MS+Office+Skills" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&center=true&vCenter=true&width=650&lines=Frontend+Developer+%F0%9F%92%BB;DIT+Student+%F0%9F%8E%93;HTML+%7C+CSS+%7C+JavaScript+%F0%9F%9A%80;Building+Clean+%26+Modern+Web+Projects+%E2%9C%A8" />
 </p>
 
+---
 
 ## 💫 About Me
 
-- 🎓 I am a **DIT student**
-- 💻 Passionate about **Frontend Development**
-- 🌱 Currently learning **JavaScript & Web Development**
-- 📍 From **Ghotki, Pakistan**
-- 🎯 Goal: Become a professional **Frontend Developer**
+- 🎓 DIT Student  
+- 💻 Frontend Developer  
+- 🌱 Learning HTML, CSS & JavaScript  
+- 📍 Ghotki, Pakistan  
+- 🎯 Goal: Become a professional Frontend Developer  
 
+---
 
-## 🚀 Skills
+## 🚀 Projects
 
-### 🌐 Web Development
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,javascript" />
-</p>
+- 💼 **Portfolio Website**  
+  Responsive personal portfolio built with HTML and CSS. 
+  🔗Live: https://esha-kewalramani.github.io/Codealpha_Task1_My-Portfolio/ 
 
-### 🧰 Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=vscode,github" />
-</p>
+- 🌐 **My Image Gallery**  
+  Modern responsive Image Gallery using HTML, CSS & Javascript.
+  🔗Live: https://esha-kewalramani.github.io/CodeAlpha_Task3_My-Image-Gallery/
 
-### 📊 MS Office
-- MS Word  
-- MS Excel  
+- 🧮 **Calculator App**  
+  Simple JavaScript calculator project  
+  🔗Live: https://esha-kewalramani.github.io/CodeAlpha_Task2_Calculator/ 
 
+---
 
-## 🐍 Contribution Snake
+## 📊 GitHub Activity Graph
 
 <p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=esha-kewalramani&theme=tokyo-night" />
 </p>
 
-
-## 💼 Portfolio
-
-🚀 My Portfolio Website is live on GitHub Pages  
-👉https://esha-kewalramani.github.io/Codealpha_Task1_My-Portfolio/
-
+---
 
 ## ⚡ Fun Fact
 
 💡 I enjoy building simple and creative web projects while learning new technologies every day.
 
+---
 
 <p align="center">
   ⭐ Thanks for visiting my profile! ⭐
