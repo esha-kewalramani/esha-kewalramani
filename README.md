@@ -1,43 +1,59 @@
-# 👋 Hi, I'm Esha Kewalramani  
-💻 Beginner Frontend Web Developer | 🚀 Beginner to Pro Growth Journey  
+<!-- 🟣 CUSTOM HEADER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Esha%20Kewalramani&fontSize=40&fontColor=ffffff" />
+</p>
+
+<h1 align="center">Hi 👋, I'm Esha Kewalramani</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=500&lines=Frontend+Developer;DIT+Student;HTML+CSS+JavaScript+Learner;MS+Office+Skills" />
+</p>
 
 
-## 🧠 About Me  
-- 🎓 Passionate about Web Development & UI Design  
-- 🌱 Currently learning advanced **JavaScript & React**  
-- 💡 I enjoy turning ideas into real, responsive websites  
-- 🎯 Goal: Become a Full Stack Developer  
-- ⚡ Love building clean, user-friendly interfaces  
+## 💫 About Me
+
+- 🎓 I am a **DIT student**
+- 💻 Passionate about **Frontend Development**
+- 🌱 Currently learning **JavaScript & Web Development**
+- 📍 From **Ghotki, Pakistan**
+- 🎯 Goal: Become a professional **Frontend Developer**
 
 
-## 🛠️ Tech Stack  
+## 🚀 Skills
 
-### 💻 Languages  
-![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+### 🌐 Web Development
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,javascript" />
+</p>
 
-### ⚙️ Tools & Platforms  
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![VS Code](https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode)
+### 🧰 Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,github" />
+</p>
 
-
-## 🚀 Projects  
-
-🌟 **Image Gallery Website**  
-A responsive gallery showcasing my own projects with creative layouts using HTML, CSS & JavaScript  
-
-🌟 **Calculator App**  
-A simple and interactive calculator built with JavaScript  
-
-🌟 **Portfolio Website**  
-My personal portfolio showcasing my skills and projects  
+### 📊 MS Office
+- MS Word  
+- MS Excel  
 
 
-## ✨ Fun Fact  
+## 🐍 Contribution Snake
 
-💡 I believe: *“Consistency is more important than perfection.”*  
+<p align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" />
+</p>
 
 
+## 💼 Portfolio
 
-⭐ Thanks for visiting my profile!
+🚀 My Portfolio Website is live on GitHub Pages  
+👉https://esha-kewalramani.github.io/Codealpha_Task1_My-Portfolio/
+
+
+## ⚡ Fun Fact
+
+💡 I enjoy building simple and creative web projects while learning new technologies every day.
+
+
+<p align="center">
+  ⭐ Thanks for visiting my profile! ⭐
+</p>
