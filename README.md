@@ -42,12 +42,6 @@
   🔗Live: https://esha-kewalramani.github.io/CodeAlpha_Task2_Calculator/ 
 
 
-## 📊 GitHub Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=esha-kewalramani&theme=tokyo-night" />
-</p>
-
 
 ## ✨ Fun Fact  
 
